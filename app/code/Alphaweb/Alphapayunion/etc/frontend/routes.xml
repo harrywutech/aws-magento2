@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Alphaweb. All rights reserved.
+ * See more information at http://www.hellomagento2.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="alphapayunion" frontName="alphapayunion">
+            <module name="Alphaweb_Alphapayunion" />
+        </route>
+    </router>
+</config>
